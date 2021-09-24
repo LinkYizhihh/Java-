@@ -11,9 +11,9 @@ public class Practice2 {
 	public int f(int n) {
 		if(n>1){
 			return 2*f(n-1)+f(n-2);
-		}else if(n==21){
+		}else if(n==1){
 			return 4;
-		}else if(n==20){
+		}else {
 			return 1;
 		}
 	}
